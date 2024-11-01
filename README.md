@@ -6,7 +6,7 @@ This is an experimental release, and many games are not yet playable. Sound is n
 
 nullDC-PSP was originally developed by drk||Raziel (currently under the nickname skmp). It was compiled and restored by xiro and hlide in 2021.
 
-# Compatibility
+# Compatibility1
 
 nullDC-PSP is only compatible with 'slim' models (PSP-2000 and above). It will not boot on the original PSP-1000.
 
