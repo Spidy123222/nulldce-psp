@@ -20,12 +20,10 @@ jobs:
     container: ${{ matrix.docker_tag }}:latest
     steps:
     - uses: actions/checkout@v4
-      with:
-        submodules: recursive
 
     - name: Install dependencies
       run: |
-        apk add build-base bash cmake && sudo apt install git
+        apk add build-base git bash cmake
     
 
     - name: Compile project
